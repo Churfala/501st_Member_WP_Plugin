@@ -1,0 +1,50 @@
+/* 501st.com API plugin styles
+ * Loaded by the plugin only on pages using the [nzg_external_data] shortcode.
+ * The "Monda" Google Font is enqueued by the plugin (see nzg_enqueue_styles).
+ */
+
+h2 {
+	color: white;
+	font-family: "Monda", sans-serif;
+}
+
+.command {
+	font-family: "Monda", sans-serif;
+	color: #828487;
+}
+
+.command h2 {
+	color: white;
+}
+
+.header {
+	font-family: "Monda", sans-serif;
+	color: white;
+}
+
+h3 {
+	color: white !important;
+}
+
+.roster {
+	float: left;
+	margin: 20px;
+	text-align: center;
+}
+
+.roster img {
+	height: 101px;
+	width: 75px;
+}
+
+.caption {
+	display: block;
+	color: white;
+	font-family: "Monda", sans-serif;
+}
+
+@media screen and (min-width: 640px) {
+	.officerbreak {
+		display: none;
+	}
+}
